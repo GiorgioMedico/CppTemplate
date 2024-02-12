@@ -6,3 +6,6 @@ install:
 prepare:
 	rm -rf build
 	mkdir build
+
+coverage:
+	sudo apt-get install gcovr lcov
