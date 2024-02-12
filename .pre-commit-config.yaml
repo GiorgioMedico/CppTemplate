@@ -24,3 +24,5 @@ repos:
 # run on terminal
 # pre-commit install
 # pre-commit install-hooks
+# pre-commit run --all-files
+# if fail git add . && git commit -m "fix pre-commit"
