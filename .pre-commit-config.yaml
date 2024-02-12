@@ -14,3 +14,7 @@ repos:
     hooks:
       - id: clang-format
         exclude_types: [javascript, json]
+
+# run on terminal
+# pre-commit install
+# pre-commit install-hooks
