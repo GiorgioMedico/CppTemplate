@@ -48,7 +48,7 @@ endif()
 add_cmake_format_target()
 add_clang_format_target()
 
-if(ENABLE_SANITIZE_ADDR OR ENABLE_SANITIZE_UNDEF)
+if(ENABLE_SANITIZE_ADDR OR ENABLE_SANITIZE_UNDEF OR ENABLE_SANITIZE_LEAK OR ENABLE_SANITIZE_THREAD)
     include(Sanitizer)
     add_sanitizer_flags()
 endif()
